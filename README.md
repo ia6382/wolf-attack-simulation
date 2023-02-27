@@ -1,8 +1,5 @@
 # Wolf Attack on Flock of Sheep Procedural Animation and Effectiveness of Guard Dogs
-
-Click the image to see a demo video:
-
-[![demo video](screenshot.png)](https://www.youtube.com/watch?v=sy5GVh0IQkQ&feature=youtu.be)
+![sreenshot](screenshot.PNG)
 
 ## About
 Following the recent return of wolves in Slovenian forests, there is talk about attacks on farm animals. This has inspired us to develop a simulation of a wolf attack on herds of sheep, 
@@ -26,10 +23,13 @@ or an aggressive approach (chase the wolf away from the flock and keep it pinned
 When wolves are not present in close vicinity they herd the sheep into a tighter group which is easier to defend. 
 
 After extensive experimentation, we concluded that the best hunting tactic for the wolves is an adjusted boids group hunting model.
-While guard dogs cannot completely prevent a wolf attack, they can significantly reduce the number of sheep casualties. We also note that they are most successful when they act more aggressively.
-This coincides with real-life observations [4].
+While guard dogs cannot completely prevent a wolf attack, they can significantly reduce the number of sheep casualties. We also note that they are most successful when they act more aggressively. This coincides with real-life observations [4].
 
 The file "porocilo.pdf" contains a more detailed report in the Slovenian language.
+
+A demo video can be seen bellow:
+
+[![demo video](video.png)](https://www.youtube.com/watch?v=sy5GVh0IQkQ&feature=youtu.be)
 
 ## Running the experiments
 * To run the automatic testing open the project in Unity version 2019.2.9f1 or import it into a newer version.
